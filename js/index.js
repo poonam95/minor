@@ -1,4 +1,4 @@
-window.onload = function() {
+// window.onload = function() {
 
     var config = {
         apiKey: "AIzaSyCkCcAZlkz7FpBVhtissjwLfd6aqURm1P4",
@@ -104,4 +104,4 @@ window.onload = function() {
         loadPage(sortBy);
     }
 
-};
+// };
