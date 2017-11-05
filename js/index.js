@@ -52,7 +52,7 @@ rootRef.orderByChild(sortBy).on("child_added", snap => {
     //});
 
     
-    $("#table_body").append("<tr><td>" + image + "</td><td>" + email + "</td><td>" + city + "</td><td>" + addr + "</td><td>" + desc + "</td><td>" + rating + "</td></tr>");
+    $("#table_body").append("<tr><td>" + '<img alt="" height=100 width=100></img>' + "</td><td>" + email + "</td><td>" + city + "</td><td>" + addr + "</td><td>" + desc + "</td><td>" + rating + "</td></tr>");
 
     	console.log(sortBy + "hello");
 
