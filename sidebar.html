@@ -9,6 +9,8 @@
 
          <!-- Bootstrap CSS CDN -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
         <!-- Our Custom CSS -->
         <link rel="stylesheet" href="css/sidebar.css">
     </head>
@@ -24,9 +26,9 @@
                 </div>
 
                 <ul class="list-unstyled components">
-                    <p>Dummy Heading</p>
+                    
                     <li class="active">
-                        <a href="#homeSubmenu"  onclick="sortByAllProblems()">All Problems</a>
+                        <a href="#homeSubmenu"  id="allproblems" onclick="sortByAllProblems()">All Problems</a>
                        
                     </li>
                     <li>
@@ -42,20 +44,23 @@
                         <a href="#"></a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#" id="contact">Contact</a>
                     </li>
                 </ul>
 
                 
             </nav>
-
+         
             <!-- Page Content Holder -->
             <div id="content">
-
+                 <h1>SWACHH INDIA</h1>
                 <nav class="navbar navbar-default">
                     <div class="container-fluid">
 
                         <div class="navbar-header">
+
+                <p >Swachh india’ is an innovative solution which encourages people to adopt hygienic practices, use toilets and stop open defecation, at scale. Behavioral change is fundamental to Swachh Bharat Mission. But old habits die hard and behavioral change takes time.
+                </p>
                             <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
                                 <i class="glyphicon glyphicon-align-left"></i>
                                 <span>Toggle Sidebar</span>
@@ -63,36 +68,27 @@
                         </div>
 
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#">Page</a></li>
-                                <li><a href="#">Page</a></li>
-                                <li><a href="#">Page</a></li>
-                                <li><a href="#">Page</a></li>
-                            </ul>
+                          
                         </div>
                     </div>
                 </nav>
 
                
-                <p style="color:red">‘Swachh india’ is an innovative solution which encourages people to adopt hygienic practices, use toilets and stop open defecation, at scale. Behavioral change is fundamental to Swachh Bharat Mission. But old habits die hard and behavioral change takes time.
-                </p>
-                <p></p>
+                
 
 
 
     <div class="mainDiv" align="left">
         <h1>All Users</h1>
         <table class="table">
-            <thead>
-                <tr class="success">
-                    <td>Image</td>
-                    <td>Email</td>
-                    <td>City</td>
-                    <td>Address</td>
-                    <td>Description</td>
-                    <td>Rating</td>
-                </tr>
-            </thead>
+             <tr  style="outline: thin solid; background:#66a3ff">
+                    <th>Image</th>
+                    <th>Email</th>
+                    <th>City</th>
+                    <th>Address</th>
+                    <th>Description</th>
+                    <th>Rating</th>
+             </tr>
             <tbody id="table_body"  style="text-align: center;">
             </tbody>
         </table>
@@ -100,9 +96,101 @@
 
         <div class="line"></div>
 
+  </div>
+
+
+
+<!--CONTACT INFORMATION-->
+
+
+
+
+
+
+<div class="container animated fadeIn" id="contact-section" style="display: none;">
+
+  <div class="row">
+    <h1 class="header-title"> Contact </h1>
+    <hr>
+    <div class="col-sm-12" id="parent">
+        <div class="col-sm-12">
+        <iframe width="100%" height="320px;" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJaY32Qm3KWTkRuOnKfoIVZws&key=AIzaSyAf64FepFyUGZd3WFWhZzisswVx2K37RFY" allowfullscreen></iframe>
+        </div>
+
+        
     </div>
+  </div>
+
+  <div class="container second-portion">
+    <div class="row">
+        <!-- Boxes de Acoes -->
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+            <div class="box">                           
+                <div class="icon">
+                    <div class="image"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                    <div class="info">
+                        <h3 class="title">MAIL & WEBSITE</h3>
+                        <p>
+                            <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp minister.hrd@gov.in
+                            
+                            
+                        </p>
+                    
+                    </div>
+                </div>
+                <div class="space"></div>
+            </div> 
+        </div>
+            
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+            <div class="box">                           
+                <div class="icon">
+                    <div class="image"><i class="fa fa-mobile" aria-hidden="true"></i></div>
+                    <div class="info">
+                        <h3 class="title">CONTACT</h3>
+                        <p>
+                            <i class="fa fa-mobile" aria-hidden="true"></i> &nbsp +91-11-23782698/23782387
+
+                            <br>
+                            <br>
+                            <i class="fa fa-mobile" aria-hidden="true"></i> &nbsp  +91-11-23382365 (FAX)
+                        </p>
+                    </div>
+                </div>
+                <div class="space"></div>
+            </div> 
+        </div>
+            
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+            <div class="box">                           
+                <div class="icon">
+                    <div class="image"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <div class="info">
+                        <h3 class="title">ADDRESS</h3>
+                        <p>
+                             <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp Shri S.P. Goyal
+                                Joint Secretary (NITs & DL) Shastri Bhawan New Delhi – 110001
+                        </p>
+                    </div>
+                </div>
+                <div class="space"></div>
+            </div> 
+        </div>          
+        <!-- /Boxes de Acoes -->
+        
+        <!--My Portfolio  dont Copy this -->
+        
+    </div>
+</div>
+<!--CONTACT INFORMATION CLOSED-->
+
+
+
+
         
 </div>
+
+
 
 
 
@@ -129,6 +217,23 @@
         $("#wrapper").toggleClass("toggled");
     });
     </script>
+
+    <script type="text/javascript"> 
+   $(function() {
+       $('#contact').click(function() {
+        $('#content').hide();
+           $('#contact-section').show();
+           return false;
+       });        
+   });
+    $(function() {
+       $('#allproblems').click(function() {
+        $('#contact-section').hide();
+           $('#content').show();
+           return false;
+       });        
+   });
+</script>
 
   <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>    
     <script src="js/index.js"></script>
